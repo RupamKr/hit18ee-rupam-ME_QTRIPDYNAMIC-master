@@ -32,7 +32,7 @@ function addAdventureToDOM(adventures) {
 
     div.innerHTML = `
   <a id="${Object.id}" href="${
-      "/frontend/pages/adventures/detail/?adventure=" + Object.id
+      "/adventures/detail/?adventure=" + Object.id
     }" 
   >
  
